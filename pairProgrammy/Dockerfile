@@ -5,7 +5,7 @@ FROM openjdk:23-slim
 WORKDIR /app
 
 # Copy the packaged JAR file into the container
-COPY target/pairProgrammy-0.0.1-SNAPSHOT.jar app.jar
+COPY pairProgrammy/pairProgrammy/target/pairProgrammy-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port that Spring Boot will run on
 EXPOSE 8080
